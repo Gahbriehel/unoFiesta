@@ -1,7 +1,7 @@
 export const config = {
   theme: {
     // Allows easy swapping of accent colors if needed
-    accent: "blue", // can be changed to 'pink', 'blue', etc in styling
+    accent: "blue",
   },
   hero: {
     title: "Denzel Olayiwola",
@@ -11,19 +11,19 @@ export const config = {
   },
   details: {
     date: "Sunday, May 3rd",
-    time: "2:00 PM - 5:00 PM",
-    venue: "24 Portand Rd\nB16 9HU",
+    time: "2:00 PM - 7:00 PM",
+    venue: "24 Portland Rd\nB16 9HU",
     rsvpDate: "April 20th",
     rsvp: [
-      { 
-        name: "Mom", 
-        phone: "+44 7769005187", 
-        whatsapp: "https://wa.me/447769005187" 
+      {
+        name: "Mom",
+        phone: "+44 7769005187",
+        whatsapp: "https://wa.me/447769005187"
       },
-      { 
-        name: "Dad", 
-        phone: "+44 7769690367", 
-        whatsapp: "https://wa.me/447769690367" 
+      {
+        name: "Dad",
+        phone: "+44 7769690367",
+        whatsapp: "https://wa.me/447769690367"
       }
     ],
   },
@@ -35,9 +35,9 @@ export const config = {
     heading: "A Year of Joy",
     paragraph: "Our little Denzel has brought so much light and love into our lives over the past year. From his first bright-eyed smile to his wobbly first steps, every moment has been a treasure. We cannot wait to celebrate this beautiful milestone surrounded by our closest family and friends.",
     milestones: [
-      { title: "First Smile", date: "October 10, 2025" },
-      { title: "First Word (Gabriel)", date: "March 5, 2026" },
-      { title: "First Steps", date: "March 01, 2026" },
+      { title: "First Smile", date: "May 4, 2025" },
+      { title: "First Word (Dada)", date: "March 5, 2026" },
+      { title: "First Steps", date: "April 7, 2026" },
     ]
   },
   photos: {
@@ -45,7 +45,9 @@ export const config = {
     featured: [
       "/images/image19.jpeg",
       "/images/image0.jpeg",
-      "/images/image29.jpeg"
+      "/images/image29.jpeg",
+      "/images/image15.jpeg",
+      "/images/image37.jpeg"
     ],
     // Gallery modal photos
     gallery: [

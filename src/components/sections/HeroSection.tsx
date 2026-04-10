@@ -27,7 +27,7 @@ export function HeroSection() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2, delay: 0.2 }}
       >
-        <h1 className="font-script text-9xl md:text-[200px] text-[var(--color-brand-brown)] leading-none -mb-6 md:-mb-16 relative z-10 select-none">
+        <h1 className="font-script text-[7.5rem] md:text-[200px] text-[var(--color-brand-brown)] leading-none -mb-6 md:-mb-16 relative z-10 select-none">
           {config.hero.title.split(' ')[0]}
         </h1>
       </motion.div>
