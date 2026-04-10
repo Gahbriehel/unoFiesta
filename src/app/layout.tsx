@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   title: "First Birthday Celebration",
   description: "Join us as we celebrate a wonderful first year.",
   icons: {
-    icon: "/images/unofiesta.png",
+    icon: "/images/image37.jpeg",
   },
 };
 
