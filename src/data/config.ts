@@ -60,5 +60,9 @@ export const config = {
   },
   footer: {
     message: "We can't wait to celebrate with you!",
+    developer: {
+      name: "gdome",
+      contactUrl: "https://portfolio.gdome.xyz/#contact",
+    },
   }
 };

@@ -36,7 +36,10 @@ export const metadata: Metadata = {
   title: "First Birthday Celebration",
   description: "Join us as we celebrate a wonderful first year.",
   icons: {
-    icon: "/images/image37.jpeg",
+    icon: [
+      { url: "/favicon.png", sizes: "180x180", type: "image/png" },
+    ],
+    apple: "/favicon.png",
   },
 };
 

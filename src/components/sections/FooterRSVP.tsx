@@ -7,8 +7,8 @@ import { config } from "@/data/config";
 
 export function FooterRSVP() {
   return (
-    <div className="bg-[var(--color-brand-light)] w-full py-24 pb-32 border-t border-[var(--color-brand-champagne)]">
-      <Section className="text-center flex flex-col items-center">
+    <div className="bg-[var(--color-brand-light)] w-full border-t border-[var(--color-brand-champagne)]">
+      <Section className="text-center flex flex-col items-center py-24">
         <motion.h2 
           className="font-heading text-4xl md:text-5xl lg:text-6xl text-[var(--color-brand-dark)] mb-8"
           initial={{ opacity: 0, y: 20 }}
@@ -47,6 +47,18 @@ export function FooterRSVP() {
           ))}
         </div>
       </Section>
+
+      {/* Developer credit — its own clearly separated strip */}
+      <div className="bg-[var(--color-brand-champagne)] py-4 text-center">
+        <a
+          href={config.footer.developer.contactUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-body text-xs tracking-widest uppercase text-[var(--color-brand-taupe)] hover:text-[var(--color-brand-gold)] transition-colors duration-300"
+        >
+          Site by {config.footer.developer.name}
+        </a>
+      </div>
     </div>
   );
 }
