@@ -36,7 +36,7 @@ export const config = {
     paragraph: "Our little Denzel has brought so much light and love into our lives over the past year. From his first bright-eyed smile to his wobbly first steps, every moment has been a treasure. We cannot wait to celebrate this beautiful milestone surrounded by our closest family and friends.",
     milestones: [
       { title: "First Smile", date: "May 4, 2025" },
-      { title: "First Word (Dada)", date: "March 5, 2026" },
+      { title: "First Word (Dada)", date: "January 12, 2026" },
       { title: "First Steps", date: "April 7, 2026" },
     ]
   },
